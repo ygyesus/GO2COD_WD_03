@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border-radius: 40px;
+    border: 15px solid white;
+    background-color: black;
+    width: 300px;
+}
+
+.display {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+}
+
+.display div {
+    text-align: right;
+    color: white;
+    margin: 3px 0px;
+    width: 100%;
+}
+
+.expression {
+    font-size: 16px;
+}
+
+.result {
+    font-size: 32px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.buttons button {
+    width: 25%;
+    height: 20%;
+    border: 0;
+
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(244, 215, 220);
+    background-color: rgb(28, 159, 13);
+}
+
+.buttons .equal {
+
+    height: 40%;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 24px;
+}
