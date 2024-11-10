@@ -57,7 +57,7 @@ const C_button = document.querySelector('.C')
 const CE_button = document.querySelector('.CE')
 
 C_button.addEventListener('click', (event) => {
-    expression.textContent = ''
+    expression.textContent = 0
     result.textContent = 0
 })
 
